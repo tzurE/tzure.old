@@ -5,8 +5,11 @@ body {
 	background-image: url("back1.jpg");
 }
 
+div.filler {
+	height: 100px;
+}
 .container{
-	height: 350px;
+	height: 470px;
 }
 
 .top {
