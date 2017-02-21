@@ -1,15 +1,36 @@
-.container {
+/*.container {
+	background-color: lightblue;
+}*/
+body {
+	background-image: url("back1.png");
+}
+
+.container{
+	height: 350px;
+}
+
+.top {
 	background-color: lightblue;
 }
 
+.top_text{
+	font-size: 55px;
+}
 h1 {
+	color: white;
 	text-align: center;
 	font-family:sans-serif, arial;
 	font-weight: bold;
 
 }
-
+.small {
+	color:red;
+}
 input{
 	text-align: center;
 	font-size: 20px;
+}
+
+.share_row{
+	margin-top: 20px;
 }
