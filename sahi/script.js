@@ -6,7 +6,9 @@ function sayHi(){
 var str = "";
 var items = {};
 var done = false;
+var phrase_list = $("#phrases");
 var push = $('#push').on("click", another);
+var push = $('#member').on("click", update_list);
 $.getJSON("stuff.json", parse_sentence);
 
 function parse_sentence(data){
@@ -39,4 +41,10 @@ function another(){
 
 function update_phrase_on_page(){
 	$("#phrase").html(str);
+}
+
+
+function update_list(){
+	phrase_list.append('<a href="#" class="list-group-item">' + str + '</a>');
+	console.log(str);
 }
