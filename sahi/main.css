@@ -26,6 +26,12 @@ h1 {
 	font-weight: bold;
 
 }
+
+h3{
+	margin-right:17px;
+	font-family:sans-serif, arial;
+	font-weight: bold;
+}
 .small {
 	color:red;
 }
