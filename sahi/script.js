@@ -40,8 +40,6 @@ function choose_randome_item(key, val){
 
 
 function get_another_phrase(){
-	// neat trick
-	$("#phrase").fadeOut();
 	
 	coded_string = ""
 	window.setTimeout(function(){
@@ -54,7 +52,6 @@ function get_another_phrase(){
 
 function update_phrase_on_page(){
 	$("#phrase").html(str);
-	$("#phrase").fadeIn(1000);
 }
 
 
