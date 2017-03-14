@@ -3,8 +3,14 @@
 }*/
 body {
 	background-image: url("back1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
+.panel-primary {
+	background-color: transparent;
+	border: 3px solid;
+	border-color: lightgrey;
+}
 div.filler {
 	height: 75px;
 }
@@ -13,7 +19,7 @@ div.filler {
 }
 
 .top {
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 }
 
 .top_text{
@@ -28,6 +34,7 @@ h1 {
 }
 
 h3{
+	color: white;
 	margin-right:17px;
 	font-family:sans-serif, arial;
 	font-weight: bold;
